@@ -12,8 +12,8 @@ var drinks_qrcode = $('#drinks-qrcode');
 var isMobile = /Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent);
 
 var GithubLink  =   "https://github.com/Lyon52222";
-var PayPalLink  =   "https://www.paypal.me/KaiyuanXie";
-$('#paypal-donate>a').href = PayPalLink;
+//var PayPalLink  =   "https://www.paypal.me/KaiyuanXie";
+//$('#paypal-donate>a').href = PayPalLink;
 $('#github-box>a').href = GithubLink;
 var qrcodes = {
     //'btc_donate'	:	'../simple/images/BTCQR.png',	// 二维码路径
