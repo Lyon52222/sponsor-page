@@ -11,16 +11,17 @@ var drinks_qrcodes = $('#drinks-qrcodes');
 var drinks_qrcode = $('#drinks-qrcode');
 var isMobile = /Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent);
 
-var GithubLink  =   "https://github.com/Kaiyuan/donate-page/";
+var GithubLink  =   "https://github.com/Lyon52222";
 var PayPalLink  =   "https://www.paypal.me/KaiyuanXie";
 $('#paypal-donate>a').href = PayPalLink;
 $('#github-box>a').href = GithubLink;
 var qrcodes = {
-    'btc_donate'	:	'../simple/images/BTCQR.png',	// 二维码路径
-    'alipay_donate'	:	'../simple/images/AliPayQR.png',	// 支付宝二维码
-    'alipay_donate_link'   :   'https://qr.alipay.com/3272611934645308',   // 支付宝二维码上的链接，必须换成自己的连接！！！手机点击会自动跳转到支付宝。
-    'wechat_donate'	:	'../simple/images/WeChanSQ.png'
+    //'btc_donate'	:	'../simple/images/BTCQR.png',	// 二维码路径
+    'alipay_donate'	:	'./images/alipay.jpg',	// 支付宝二维码
+    'alipay_donate_link'   :   'https://qr.alipay.com/fkx11866f35rr3lztv',   // 支付宝二维码上的链接，必须换成自己的连接！！！手机点击会自动跳转到支付宝。
+    'wechat_donate'	:	'./images/wechat.jpg'
 };
+
 
 var drinks_an = new Object();
 // 动画有 4 种状态，不同状态给对应 DOM 添加 css 动画
